@@ -78,11 +78,11 @@
   "spacing": {
     "md": {
       "value": "12px",
-      "type": "other"
+      "type": "sizing"
     },
     "lg": {
       "value": "16px",
-      "type": "other"
+      "type": "sizing"
     }
   },
   "font": {
