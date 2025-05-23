@@ -1,0 +1,38 @@
+@import "@radix-ui/colors/black-alpha.css";
+@import'../build/css/variables.css';
+
+/* reset */
+input {
+	all: unset;
+}
+
+.LabelRoot {
+	font-size: var(--ds-font-size-md);
+	font-weight: 500;
+	line-height: 35px;
+	color: var(--ds-color-text-dark);
+}
+
+.Input {
+	width: 200px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--ds-radius-md);
+	padding: 0 var(--ds-spacing-md);
+	height: 35px;
+	font-size: var(--ds-font-size-md);
+	line-height: 1;
+	color: var(--ds-color-text-dark);
+	background-color: var(--ds-color-background-default);
+	box-shadow: 0 0 0 1px var(--ds-color-background-default);
+}
+
+.Input:focus {
+	box-shadow: 0 0 0 2px black;
+}
+
+.Input::selection {
+	background-color: var(--ds-color-background-default);
+	color: var(--ds-color-text-dark);
+}

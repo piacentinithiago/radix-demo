@@ -1,0 +1,61 @@
+@import '../../../build/css/variables.css';
+
+.btn {
+  padding: var(--ds-spacing-md) var(--ds-spacing-lg);
+  font-size: var(--ds-font-size-md);
+  border-radius: var(--ds-radius-md);
+  border: var(--ds-border-width-default) solid var(--ds-color-border-default);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  background: var(--ds-color-background-default);
+  color: var(--ds-color-text-default);
+}
+
+.btn-default {
+  background: var(--ds-color-background-default);
+  color: var(--ds-color-text-default);
+  border: var(--ds-border-width-default) solid var(--ds-color-border-default);
+}
+
+.btn-primary {
+  background: var(--ds-color-background-primary);
+  color: var(--ds-color-text-on-primary);
+}
+
+.btn-secondary {
+  background: var(--ds-color-background-secondary);
+  color: var(--ds-color-text-on-secondary);
+}
+
+.btn-danger {
+  background: var(--ds-color-background-danger);
+  color: var(--ds-color-text-on-danger);
+}
+
+.btn-warning {
+  background: var(--ds-color-background-warning);
+  color: var(--ds-color-text-on-warning);
+}
+
+.btn-success {
+  background: var(--ds-color-background-success);
+  color: var(--ds-color-text-on-success);
+}
+
+.btn-link {
+  background: transparent;
+  color: var(--ds-color-link);
+  text-decoration: underline;
+  border: none;
+  padding: var(--ds-spacing-md) var(--ds-spacing-md);
+}
+
+.btn-info {
+  background: var(--ds-color-background-info);
+  color: var(--ds-color-text-on-info);
+}
+
+.btn:disabled {
+  opacity: var(--ds-opacity-disabled, 0.6);
+  cursor: not-allowed;
+}

@@ -1,0 +1,29 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --ds-color-background-default: #ccc;
+  --ds-color-background-primary: #0052cc;
+  --ds-color-background-secondary: #f4f5f7;
+  --ds-color-background-danger: #de350b;
+  --ds-color-background-warning: #ffab00;
+  --ds-color-background-success: #36b37e;
+  --ds-color-background-info: #00b8d9;
+  --ds-color-text-dark: #172b4d;
+  --ds-color-text-default: #172b4d;
+  --ds-color-text-on-primary: #ffffff;
+  --ds-color-text-on-secondary: #172b4d;
+  --ds-color-text-on-danger: #ffffff;
+  --ds-color-text-on-warning: #172b4d;
+  --ds-color-text-on-success: #ffffff;
+  --ds-color-text-on-info: #ffffff;
+  --ds-color-border-default: #dfe1e6;
+  --ds-color-link: #0052cc;
+  --ds-spacing-md: 12px;
+  --ds-spacing-lg: 16px;
+  --ds-font-size-md: 16px;
+  --ds-radius-md: 4px;
+  --ds-border-width-default: 1px;
+  --ds-opacity-disabled: 0.6;
+}
