@@ -96,7 +96,7 @@
   "radius": {
     "md": {
       "value": "4px",
-      "type": "other"
+      "type": "sizing"
     }
   },
   "border": {
