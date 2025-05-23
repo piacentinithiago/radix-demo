@@ -21,9 +21,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      
+          cache: 'npm'
+
       - name: Install dependencies
         run: npm i
-  
+
       - name: Build Style Dictionary tokens
         run: yarn build:tokens
+
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add build/css/variables.css
+          git diff --staged --quiet || git commit -m " chore(tokens): update generated tokens [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
