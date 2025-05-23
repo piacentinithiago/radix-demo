@@ -2,7 +2,7 @@
   "color": {
     "background": {
       "default": {
-        "value": "#654665",
+        "value": "#ff000",
         "type": "color"
       },
       "primary": {
