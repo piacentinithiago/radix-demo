@@ -2,11 +2,11 @@
   "color": {
     "background": {
       "default": {
-        "value": "#ff000",
+        "value": "#ccc",
         "type": "color"
       },
       "primary": {
-        "value": "#f0f",
+        "value": "#0052cc",
         "type": "color"
       },
       "secondary": {
