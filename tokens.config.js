@@ -1,7 +1,7 @@
 import path from 'path';
 
 export default {
-  source: ['styles/tokens/demo-tokens.json'],
+  source: ['tokens/demo-tokens.json'],
   platforms: {
     css: {
       transformGroup: 'css',
