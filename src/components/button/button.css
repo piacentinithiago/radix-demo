@@ -1,25 +1,23 @@
-@import '../../../build/css/variables.css';
-
 .btn {
-  padding: var(--ds-spacing-md) var(--ds-spacing-lg);
+  padding: var(--size-xl);
   font-size: var(--ds-font-size-md);
   border-radius: var(--ds-radius-md);
   border: var(--ds-border-width-default) solid var(--ds-color-border-default);
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
-  background: var(--ds-color-background-default);
+  background: var(--color-primary);
   color: var(--ds-color-text-default);
 }
 
 .btn-default {
-  background: var(--ds-color-background-default);
+  background: var(--color-primary);
   color: var(--ds-color-text-default);
   border: var(--ds-border-width-default) solid var(--ds-color-border-default);
 }
 
 .btn-primary {
-  background: var(--ds-color-background-primary);
-  color: var(--ds-color-text-on-primary);
+  background: var(--color-primary);
+  color: var(--color-light);
 }
 
 .btn-secondary {

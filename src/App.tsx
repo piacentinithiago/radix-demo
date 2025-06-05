@@ -5,6 +5,7 @@ import './App.css'
 import Button from "./components/button/Button"
 import { Label } from "radix-ui";
 import './label.css';
+import '../node_modules/@piacentinithiago/design-tokens/build/css/variables.css';
 
 function App() {
   const [count, setCount] = useState(0)
