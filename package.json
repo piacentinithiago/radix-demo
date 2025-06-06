@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@piacentinithiago/design-tokens": "^1.0.14",
+    "@piacentinithiago/design-tokens": "^1.0.4",
     "@radix-ui/colors": "^3.0.0",
     "radix-ui": "^1.4.2",
     "react": "^19.1.0",

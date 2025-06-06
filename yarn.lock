@@ -342,10 +342,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@piacentinithiago/design-tokens@^1.0.14":
-  version "1.0.14"
-  resolved "https://npm.pkg.github.com/download/@piacentinithiago/design-tokens/1.0.14/51fb5aac632720162d513b0a6e277800f523ab3f"
-  integrity sha512-I1f0gaQO5JD++XweUU1fFLNdldPPjtEJ6Y+z1eeJxUfEQpV/MR19eDprWpOdoexq0s+o95kjhw3undTOxxyfxA==
+"@piacentinithiago/design-tokens@^1.0.4":
+  version "1.0.4"
+  resolved "https://npm.pkg.github.com/download/@piacentinithiago/design-tokens/1.0.4/09638307dca43323a0c45ab4c27e0699d04bcb93"
+  integrity sha512-MgsHqvsJBAtZVrrYRJjLckW25acQAKQKq9chILsKRbRyyhPVrCYy429prw65Z9c5qdNixQ4ILP4EP4ghgtfLwA==
 
 "@radix-ui/colors@^3.0.0":
   version "3.0.0"
